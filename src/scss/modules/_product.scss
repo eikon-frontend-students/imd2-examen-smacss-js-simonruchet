@@ -1,0 +1,26 @@
+.product {
+  display: flex;
+  padding: 0px 40px 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: var(--green, #a0d187);
+}
+
+.product h3 {
+  font-size: 35px;
+}
+
+.product p {
+  text-align: center;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+}
+
+.product i {
+  font-size: 18px;
+}
+
+.product-text-hidden {
+  display: none;
+}
