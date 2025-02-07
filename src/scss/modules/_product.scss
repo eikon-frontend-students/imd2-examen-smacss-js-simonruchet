@@ -6,6 +6,20 @@
   gap: 20px;
   background: var(--green, #a0d187);
 }
+.product-text-hidden {
+  display: none;
+}
+.product-text-hidden.is-active {
+  display: block;
+}
+
+.product-onions.is-active {
+  background: var(--red, #cf9697);
+}
+
+.product-classic.is-active {
+  background: var(--light-blue, #c0d9d9);
+}
 
 .product h3 {
   font-size: 35px;
@@ -19,8 +33,4 @@
 
 .product i {
   font-size: 18px;
-}
-
-.product-text-hidden {
-  display: none;
 }
